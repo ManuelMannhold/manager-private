@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: lightcyan;
+}
+
+button {
+  padding: 15px;
+  border-radius: 25%;
+  cursor: pointer;
+}

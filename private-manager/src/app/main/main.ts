@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
+import { Content } from './content/content';
 
 @Component({
   selector: 'app-main',
-  imports: [],
+  imports: [Content],
   templateUrl: './main.html',
-  styleUrl: './main.scss'
+  styleUrl: './main.scss',
 })
-export class Main {
-
-}
+export class Main {}
