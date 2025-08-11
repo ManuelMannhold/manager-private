@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-shopping',
   imports: [],
   templateUrl: './shopping.html',
-  styleUrl: './shopping.scss'
+  styleUrl: './shopping.scss',
 })
-export class Shopping {
-
-}
+export class GardenShopping {}

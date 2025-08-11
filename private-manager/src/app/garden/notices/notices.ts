@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-notices',
   imports: [],
   templateUrl: './notices.html',
-  styleUrl: './notices.scss'
+  styleUrl: './notices.scss',
 })
-export class Notices {
-
-}
+export class GardenNotices {}

@@ -6,4 +6,4 @@ import { Component } from '@angular/core';
   templateUrl: './have-there.html',
   styleUrl: './have-there.scss',
 })
-export class HaveThere {}
+export class GardenHaveThere {}
