@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { Sidebar } from './dist/sidebar/sidebar';
-import { Content } from './main/content/content';
+import { Navbar } from './dist/navbar/navbar';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [Sidebar, Content],
+  imports: [Sidebar, Navbar, RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
