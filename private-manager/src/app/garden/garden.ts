@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-garden',
-  imports: [RouterLink],
+  imports: [],
   templateUrl: './garden.html',
   styleUrl: './garden.scss',
 })

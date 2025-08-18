@@ -7,13 +7,11 @@ import { GardenNotices } from './garden/notices/notices';
 import { GardenShopping } from './garden/shopping/shopping';
 
 export const routes: Routes = [
-  { path: '', component: Garden },
+  { path: '', component: GardenNotices },
   { path: 'home', component: Home },
   { path: 'garden', component: Garden },
   { path: 'garden-have', component: GardenHaveThere },
   { path: 'garden-notices', component: GardenNotices },
   { path: 'garden-shopping', component: GardenShopping },
-  { path: 'garden', component: Garden },
-  { path: 'garden', component: Garden },
   { path: 'garden', component: Garden },
 ];
