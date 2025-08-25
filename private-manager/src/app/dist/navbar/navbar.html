@@ -1,11 +1,11 @@
 <nav>
-    <button routerLink="garden-notices">
+    <button [routerLink]="isGardenActive ? '/garden-notices' : '/home-notices'" routerLinkActive="active-garden">
         <p>Notizen</p>
     </button>
-    <button routerLink="garden-shopping">
+    <button [routerLink]="isGardenActive ? '/garden-shopping' : '/home-shopping'" routerLinkActive="active-garden">
         <p>Einkaufen</p>
     </button>
-    <button routerLink="garden-have">
+    <button [routerLink]="isGardenActive ? '/garden-have' : '/home-have'" routerLinkActive="active-garden">
         <p>Vorhanden</p>
     </button>
 </nav>
